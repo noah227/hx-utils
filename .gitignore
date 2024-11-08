@@ -3,6 +3,7 @@ node_modules
 dist
 *.zip
 test.*
+src/index.event.types.ts
 
 # local env files
 .env.local
