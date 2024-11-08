@@ -1,0 +1,29 @@
+{
+    "name": "hx-utils",
+    "version": "1.0.0",
+    "description": "hx常用功能函数封装",
+    "main": "dist/index.js",
+    "typings": "dist/index.d.ts",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build:types": "node ./build/index.js",
+        "build": "npm run build:types && rollup -c rollup.config.js"
+    },
+    "keywords": [],
+    "files": [
+        "dist"
+    ],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@rollup/plugin-commonjs": "^26.0.1",
+        "@rollup/plugin-json": "^6.1.0",
+        "@rollup/plugin-node-resolve": "^15.2.3",
+        "@rollup/plugin-terser": "^0.4.4",
+        "@rollup/plugin-typescript": "^11.1.6",
+        "@types/node": "^20.14.10",
+        "json5": "^2.2.3",
+        "rollup": "^4.18.1",
+        "tslib": "^2.6.3"
+    }
+}
